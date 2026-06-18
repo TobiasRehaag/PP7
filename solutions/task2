@@ -1,0 +1,23 @@
+Grep
+Grep durchsucht Dateien zeilenweise nach Regex‑Mustern.
+Es ändert keine Dateien, sondern zeigt nur ob es Treffer gibt.
+Ideal zum schnellen finden von Funktionsaufrufen.
+
+Sed
+Sed verändert automatisch den Text da es ein Stream-Editor ist.
+Ist auch unterstützend für Regex
+
+Awk
+awk ist ein Text‑verarbeitungs‑Werkzeug, das zeilenweise Skripte ausführt.
+Ideal wenn man Zeilennummern, Felder oder Bedingungen oder braucht.
+
+Vim Interactive
+Es unterstützt die Regex-Such und Ersetzen.
+Es ist ideal für kleine Änderungen.
+
+Vim Cli
+Führt Vim Befehle ohne UI aus.
+Perfekt für amtomatisierte Ersetzungen in Skripten
+Ist meiner Meinung nach besser als Sed da es die Schnelligkeit von Sed
+hat.
+ 
