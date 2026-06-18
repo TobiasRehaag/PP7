@@ -1,0 +1,14 @@
+1.gcc -E
+//#include <stdio.h> wird zu mehreren tausend Zeilen an Code.
+Es werden Makros ersetzt und Kommentare entfernt.
+Man kriegt einen reinen c code.
+2.gcc -S
+Der Code wird in Assembly übersetzt
+gcc -S bringt den C code in eine Assembly Datei
+3.gcc -c
+Assembly wird in Maschinencode übersetzt.
+Es wird zur Objektdatei (sample.o) die nicht ausführbar ist.
+4.gcc sample.o 
+Objektdateien werden mit der Standardbibliothek verknüpft.
+Es wird zu einem ausführbaren Programm (sample).
+
