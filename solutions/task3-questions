@@ -1,0 +1,11 @@
+1.extern
+Ohne extern würde der Compiler einen Fehler melden,
+weil er die Signatur nicht kennt da die Funktion erst beim Linken
+gefunden wird.
+
+2.
+Bei einer C Datei muss dann nicht das ganze Projekt neu kompiliert werden.
+
+3.
+Manuelles Linken git mir eine bessere Kontrolle über den Build Prozess.
+gcc ist gut für kleinere Programme.
